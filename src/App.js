@@ -11,7 +11,7 @@ function App() {
           <p>lorem ipsum</p>
         </Box>
         <Box className='invoice'>
-          <h1>Invoice</h1>
+          <h1>INVOICE</h1>
           <p> December 26th 2018</p>
           <Box className='receiver'>
             <p>To.</p>
@@ -21,24 +21,63 @@ function App() {
             <p>Company Name</p>
             <p>Address and City Name</p>
             <p>2424 Country Name</p>
-          </Box> 
+          </Box>
         </Box>
         <Box className='isn'>
           <h4>NO/ISN 01.12.2019</h4>
         </Box>
       </Box>
-      <Box className=''>
+      <Box className='table'>
         <table>
           <tr>
             <th>QTY</th>
-            <th>Description</th>
-            <th>Price</th>
-            <th>Total</th>
+            <th>DESCRIPTION</th>
+            <th>PRICE</th>
+            <th>TOTAL</th>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><strong>Kunyit Asam</strong><br></br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            </td>
+            <td>$10.00</td>
+            <td>$30.00</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><strong>Sabum Sirih</strong><br></br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            </td>
+            <td>$12.00</td>
+            <td>$24.00</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><strong>Cream Siang, Malam</strong><br></br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            </td>
+            <td>$30.00</td>
+            <td>$150.00</td>
           </tr>
         </table>
+        
+        <Box>
+          <Box className='payment'>
+            <p><strong>Payment method</strong></p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            </p>
+          </Box>
+          <Box className='terms'>
+            <p><strong>Terms and conditions</strong></p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            </p>
+          </Box>
+        </Box>
 
       </Box>
-      
+
     </Box>
   );
 }
