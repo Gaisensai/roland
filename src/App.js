@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 
 function App() {
   return (
+    <Box className= "body">
     <Box className="container">
       <Box className="header">
         <Box className='name'>
@@ -76,8 +77,21 @@ function App() {
           </Box>
         </Box>
 
+      <Box className="subtotal">
+          <p><strong>Subtotal</strong></p>
+          <p><strong>Tax 10%</strong></p>
+      </Box>
+      <Box className ="price">
+        <p>$164.00</p>
+        <p>$16.40</p>
       </Box>
 
+      <Box className= 'orange-box'>
+          <p><strong>GRAND TOTAL: $180.40</strong></p>
+      </Box>
+      </Box>
+      
+    </Box>
     </Box>
   );
 }
